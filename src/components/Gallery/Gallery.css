@@ -1,0 +1,35 @@
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 30px;
+  width: 100%;
+  margin-bottom: 100px;
+  padding: 30px;
+  background-color: #88B5BF;
+  box-sizing: border-box;
+}
+
+.gallery-item-block {
+  flex-grow: 1;
+  max-width: 255px;
+  min-width: 150px;
+}
+
+.gallery-item-inner {
+  position: relative;
+  height: 0;
+  padding-top: 75%;
+  border: none;
+  flex-grow: 1;
+}
+
+.gallery-item {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-height: 199px;
+  background-color: #0D89B0;
+}
